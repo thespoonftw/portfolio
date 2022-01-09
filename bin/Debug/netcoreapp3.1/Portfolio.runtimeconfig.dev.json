@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Tablespoon\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Tablespoon\\.nuget\\packages"
+    ]
+  }
+}
