@@ -6,7 +6,7 @@ export class Youtube extends Component {
     render() {
         var src = "https://www.youtube.com/embed/" + this.props.src
         return (
-            <div className="col-sm">
+            <div className="col-md">
                 <br></br>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe

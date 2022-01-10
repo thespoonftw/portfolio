@@ -21,8 +21,6 @@ export class Career extends Component {
           <br></br>
           <Tag>VR</Tag> <Tag>C#</Tag> <Tag>Unity</Tag> <Tag>SQL Server</Tag> <Tag>C++</Tag>
         </p>
-        <br></br>
-        
         <p><b>NX Panel Simulator</b> - A simulated NX (entry-exit) panel. To be used by Network Rail for signaller training during a range of emergency scenarios.</p>
         <p><b>Vehicle Simulator</b> - A confidential vehicle training simulator, used for fault training and familiarization for a world leading defense company.</p>
         <p><b>Virtual Parachute Simulator</b> - Developed new environments for the company's VR parachute simulator and regular visits to Brize Norton airbase for product support.</p>
@@ -60,11 +58,7 @@ export class Career extends Component {
           Graduate developer working on a Rail and Air Traffic applications for Network Rail and Eurocontrol in Java and Unity.
           <br></br>
           <Tag>Java</Tag> <Tag>Unity</Tag> <Tag>C#</Tag> <Tag>Blender</Tag> <Tag>Jenkins</Tag> <Tag>CI/CD</Tag>
-        </p>
-        
-        
-        <br></br>
-        
+        </p>        
         <p><b>Tower3D and ITWP</b> - An Air Traffic Simulator using Java, C# and Unity. Used by Eurocontrol for training and simulation of scenarios. Occassional on-site trips to test centre to Paris to provide support.
           Also had the opportunity to work in Blender to create new airport environments and aircraft models.</p>
         <p><b>Hermes3D </b> - Prototype Rail Simulator made with similar technologies for cab driver training. Incorporated OpenStreetMap data to procedurally generate a 3D world.</p>

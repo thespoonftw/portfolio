@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Vert } from '../components/Vert';
+import { WorkInProgress } from '../components/WorkInProgress';
 
 export class Travel extends Component {
   static displayName = Travel.name;
@@ -10,7 +11,7 @@ export class Travel extends Component {
         <Vert height='3'></Vert> 
         <h1>Travel</h1>
         <Vert height='3'></Vert>
-        <p>Page work in progress. Try another page.</p>
+        <WorkInProgress />
       </div>
     );
   }

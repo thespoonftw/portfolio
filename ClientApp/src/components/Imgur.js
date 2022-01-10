@@ -6,7 +6,7 @@ export class Imgur extends Component {
     render() {
         var src = "https://i.imgur.com/" + this.props.code;
         return (
-            <div className="col-sm">
+            <div className="col-md">
                 <br></br>
                 <img 
                     src={src} 

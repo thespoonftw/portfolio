@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Vert } from '../components/Vert';
+import { WorkInProgress } from '../components/WorkInProgress';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -8,10 +9,9 @@ export class Home extends Component {
     return (
       <div>
         <Vert height='3'></Vert> 
-        <h1>Blog!</h1>
+        <h1>Blog</h1>
         <Vert height='3'></Vert>
-        
-        <p>Page work in progress. Try another page.</p>
+        <WorkInProgress />
       </div>
     );
   }
