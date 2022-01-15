@@ -42,7 +42,9 @@ export class NavMenu extends Component {
                   <div style={{ display: "table-cell", verticalAlign: "middle" }}>
                     <span style={{ fontSize: "32px" }}><b>        Michael Wright</b></span>
                     <br></br>
-                    <p style={{ fontSize: "14px" }}><i>Welcome to my site, and don't worry about the vase.</i></p>
+                    <span style={{ fontSize: "18px" }}>Full-stack developer</span>
+                    <br></br>
+                    <span style={{ fontSize: "14px" }}>also drawing, travelling and making games</span>
                   </div>
                 </div>
               </div>
@@ -58,19 +60,19 @@ export class NavMenu extends Component {
                   <a href="https://twitter.com/TheSpoonFtw" target="_blank" rel="noreferrer"><img src={twitter} style={{ width: "32px"}} /></a>
                   <br></br>
                   <br></br>
-                  <span><NavLink to="/" className="navMenuItem" activeClassName="navMenuItemActive" exact>Blog</NavLink></span>
+                  <span><NavLink to="/" className="navMenuItem" activeClassName="navMenuItemActive" exact>Career</NavLink></span>
                   <span> • </span>
-                  <span><NavLink to="/career" className="navMenuItem" activeClassName="navMenuItemActive" exact>Career</NavLink></span>
-                  <span> • </span>
+                  {/*<span><NavLink to="/career" className="navMenuItem" activeClassName="navMenuItemActive" exact>Career</NavLink></span>
+                  <span> • </span>*/}
                   <span><NavLink to="/skills" className="navMenuItem" activeClassName="navMenuItemActive" exact>Skills</NavLink></span>
                   <span> • </span>
                   <span><NavLink to="/games" className="navMenuItem" activeClassName="navMenuItemActive" exact>Games</NavLink></span>
                   <span> • </span>
                   <span><NavLink to="/art" className="navMenuItem" activeClassName="navMenuItemActive" exact>Art</NavLink></span>
-                  <span> • </span>
+                  {/*<span> • </span>
                   <span><NavLink to="/travel" className="navMenuItem" activeClassName="navMenuItemActive" exact>Travel</NavLink></span>
                   <span> • </span>
-                  <span><NavLink to="/photos" className="navMenuItem" activeClassName="navMenuItemActive" exact>Photos</NavLink></span>
+                  <span><NavLink to="/photos" className="navMenuItem" activeClassName="navMenuItemActive" exact>Photos</NavLink></span>*/}
                 </span>                
               </div>
             </div>

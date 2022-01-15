@@ -19,11 +19,14 @@ export class Career extends Component {
         <p>
           Lead Unity developer for a range of technical training applications used in the Defense and Transport sectors.
           <br></br>
-          <Tag>VR</Tag> <Tag>C#</Tag> <Tag>Unity</Tag> <Tag>SQL Server</Tag> <Tag>C++</Tag>
+          <Tag>VR</Tag> <Tag>C#</Tag> <Tag>Unity</Tag> <Tag>SQL Server</Tag> <Tag>C++</Tag> <Tag>Github</Tag>
         </p>
-        <p><b>NX Panel Simulator</b> - A simulated NX (entry-exit) panel. To be used by Network Rail for signaller training during a range of emergency scenarios.</p>
-        <p><b>Vehicle Simulator</b> - A confidential vehicle training simulator, used for fault training and familiarization for a world leading defense company.</p>
-        <p><b>Virtual Parachute Simulator</b> - Developed new environments for the company's VR parachute simulator and regular visits to Brize Norton airbase for product support.</p>
+        <p>Main Projects:</p>
+        <ul>
+          <li>NX Panel Simulator - A simulated NX (entry-exit) panel. To be used by Network Rail for train signaller training during a range of emergency scenarios.</li>
+          <li>Defense Vehicle Simulator - A confidential vehicle training simulator, used for fault training and familiarization for a world leading defense company.</li>
+          <li>Virtual Parachute Simulator - Developing new environments for the company's VR parachute simulator and regular visits to Brize Norton airbase for product support.</li>
+        </ul>        
         <a href ="https://pennantplc.co.uk/" target="_blank" rel="noreferrer">https://pennantplc.co.uk/</a>
 
         <div className="container">
@@ -36,13 +39,16 @@ export class Career extends Component {
 
         <h3>Software Engineer at 4 Roads Ltd (2020 - 2021)</h3>
         <p>
-          Remote full stack web developer for a digital agency that provides web products to a wide range of customers.
+          Remote full-stack web developer for a digital agency that provides web products to a wide range of customers.
           <br></br>
-          <Tag>React</Tag> <Tag>MySQL</Tag> <Tag>ThreeJS</Tag> <Tag>C#</Tag> <Tag>Javascript</Tag> <Tag>Azure</Tag> <Tag>Agile</Tag> <Tag>CSS</Tag> <Tag>HTML</Tag> 
+          <Tag>React</Tag> <Tag>MySQL</Tag> <Tag>C#</Tag> <Tag>Javascript</Tag> <Tag>ThreeJS</Tag> <Tag>Azure</Tag> <Tag>Agile</Tag> <Tag>CSS</Tag> <Tag>HTML</Tag> <Tag>Github</Tag>
         </p>
-        <p><b>Social Stack</b> - Developing new components for Social Stack, a react library for modular creation of web products.</p>
-        <p><b>Immersive Event Platform</b> - A virtual conferencing space which uses photospheres, live-streams and video chats to create an immersive experience as a substitute for real-world events during the coronavirus pandemic and beyond.</p>
-        <p><b>Bridgestone World [<a href="https://www.futureofmobility.bridgestone/us/en/home" target="_blank" rel="noreferrer">link</a>]</b> - An infographic website created for CES 2021 (Computer Electronics Show), featuring an animated 3D city created using ThreeJS.</p>
+        <p>Main projects: </p>
+        <ul>
+          <li>Social Stack - Developing new components for the company's open source react library for modular creation of web products.</li>
+          <li>Immersive Event Platform - A virtual conferencing space which uses photospheres, live-streams and video chats to create an immersive experience as a substitute for real-world events during the coronavirus pandemic and beyond.</li>
+          <li>Bridgestone World [<a href="https://www.futureofmobility.bridgestone/us/en/home" target="_blank" rel="noreferrer">link</a>] - An infographic website created for CES 2021 (Computer Electronics Show), featuring an animated 3D city created using ThreeJS.</li>
+        </ul>
         <a href ="https://www.4-roads.com/" target="_blank" rel="noreferrer">https://www.4-roads.com/</a>
 
         <div className="container">
@@ -57,11 +63,14 @@ export class Career extends Component {
         <p>
           Graduate developer working on a Rail and Air Traffic applications for Network Rail and Eurocontrol in Java and Unity.
           <br></br>
-          <Tag>Java</Tag> <Tag>Unity</Tag> <Tag>C#</Tag> <Tag>Blender</Tag> <Tag>Jenkins</Tag> <Tag>CI/CD</Tag>
-        </p>        
-        <p><b>Tower3D and ITWP</b> - An Air Traffic Simulator using Java, C# and Unity. Used by Eurocontrol for training and simulation of scenarios. Occassional on-site trips to test centre to Paris to provide support.
-          Also had the opportunity to work in Blender to create new airport environments and aircraft models.</p>
-        <p><b>Hermes3D </b> - Prototype Rail Simulator made with similar technologies for cab driver training. Incorporated OpenStreetMap data to procedurally generate a 3D world.</p>
+          <Tag>Java</Tag> <Tag>Unity</Tag> <Tag>C#</Tag> <Tag>Blender</Tag> <Tag>Jenkins</Tag> <Tag>CI/CD</Tag> <Tag>SVN</Tag>
+        </p>
+        <p>Main projects: </p>
+        <ul>
+          <li>ITWP - An Air Traffic Simulator built with Java. Used by Eurocontrol for training and research of airport scenarios. Occassional on-site trips to test centre to Paris to provide support.</li>
+          <li>Tower3D - 3D View for ITWP build using C# and Unity, used to help visually verify aircraft behaviour. Also had the opportunity to work in Blender to create new 3D models for airport terminals and aircraft.</li>
+          <li>Hermes3D - Prototype Rail Simulator for cab driver training, making use of OpenStreetMap data to procedurally generate a 3D world.</li>
+        </ul>
         <a href ="https://www.graffica.co.uk/" target="_blank" rel="noreferrer">https://www.graffica.co.uk/</a>
         
         <div className="container">
