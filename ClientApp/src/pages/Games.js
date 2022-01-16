@@ -29,9 +29,9 @@ export class Games extends Component {
 
         <div className="container">
           <br /><div className="row">
-            <Imgur code="u7IO1qI.png"></Imgur>
-            <Imgur code="S7zxp14.jpg"></Imgur>
-            <Imgur code="mrIFldk.png"></Imgur>
+            <Imgur url="https://i.imgur.com/u7IO1qI.png"></Imgur>
+            <Imgur url="https://i.imgur.com/S7zxp14.jpg"></Imgur>
+            <Imgur url="https://i.imgur.com/mrIFldk.png"></Imgur>
           </div>
         </div>
 

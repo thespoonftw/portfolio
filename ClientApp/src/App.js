@@ -10,6 +10,7 @@ import { Photos } from './pages/Photos';
 import { Career } from './pages/Career';
 import { Skills } from './pages/Skills';
 import { Games } from './pages/Games';
+import { Album } from './pages/Album';
 
 import './custom.css'
 
@@ -19,12 +20,13 @@ export default class App extends Component {
   render () {
     return (
       <Layout>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={Career} />
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data' component={FetchData} />
         <Route path='/art' component={Art} />
         <Route path='/travel' component={Travel} />
-        <Route path='/photos' component={Photos} />
+        <Route exact path='/photos' component={Photos} />
+        <Route exact path='/photos/:id' component={Album} />
         <Route path='/career' component={Career} />
         <Route path='/skills' component={Skills} />
         <Route path='/games' component={Games} />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
-import { NoMobile } from './components/NoMobile';
+//import { NoMobile } from './components/NoMobile';
 import { NavMenu } from './NavMenu';
 import { Footer } from './Footer';
 
@@ -11,7 +11,7 @@ export class Layout extends Component {
     return (
       <div>
         <NavMenu />
-        <NoMobile />
+        {/*<NoMobile />*/}
         <Container>
           {this.props.children}
         </Container>
