@@ -15,8 +15,9 @@ export class PhotoGrid extends Component {
   }
 
   render() {
-    var columns = [0, 1, 2, 3];
-    var numberOfRows = Math.ceil(this.props.photos.length / 4);
+    if (this.props.photos.length == 0) { return <></> }
+    var columns = [0, 1, 2];
+    var numberOfRows = Math.ceil(this.props.photos.length / 3);
     var rows = Array.from(Array(numberOfRows).keys());
     const toggle = () => this.setState({ fullScreen: !this.state.fullScreen });
     const modalStyle = { width: "80%" };
@@ -26,8 +27,8 @@ export class PhotoGrid extends Component {
         {rows.map(y => 
           <div className="row">
             {columns.map(x =>
-              x + (y * 4) < this.props.photos.length ?
-                <Imgur square url={this.props.photos[x + (y * 4)].url} onClick={() => this.clickImage(x + (y * 4))}></Imgur>
+              x + (y * 3) < this.props.photos.length ?
+                <Imgur square url={this.props.photos[x + (y * 3)].url} onClick={() => this.clickImage(x + (y * 3))}></Imgur>
                 :
                 <div className="col-md"></div>
             )}

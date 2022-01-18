@@ -69,8 +69,8 @@ export class NavMenu extends Component {
                   <span><NavLink to="/games" className="navMenuItem" activeClassName="navMenuItemActive" exact>Games</NavLink></span>
                   <span> • </span>
                   <span><NavLink to="/art" className="navMenuItem" activeClassName="navMenuItemActive" exact>Art</NavLink></span>
-                  {/*<span> • </span>
-                  <span><NavLink to="/travel" className="navMenuItem" activeClassName="navMenuItemActive" exact>Travel</NavLink></span>*/}
+                  <span> • </span>
+                  <span><NavLink to="/travel" className="navMenuItem" activeClassName="navMenuItemActive" exact>Travel</NavLink></span>
                   <span> • </span>
                   <span><NavLink to="/photos" className="navMenuItem" activeClassName="navMenuItemActive" exact>Photos</NavLink></span>
                 </span>                

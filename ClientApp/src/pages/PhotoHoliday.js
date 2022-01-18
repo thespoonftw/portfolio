@@ -3,8 +3,8 @@ import { Vert } from '../components/Vert';
 import { Link } from 'react-router-dom';
 import { PhotoGrid, renderPhotoGrid } from '../components/PhotoGrid';
 
-export class Album extends Component {
-  static displayName = Album.name;
+export class PhotoHoliday extends Component {
+  static displayName = PhotoHoliday.name;
 
   constructor(props) {
     super(props);
@@ -17,7 +17,7 @@ export class Album extends Component {
   
   async getAllPhotos() {
     const id = this.props.match.params.id;
-    const response = await fetch('api/album/' + id);
+    const response = await fetch('api/location/' + id);
     const data = await response.json();
     this.setState({ photoData: data, loading: false });
   }
@@ -29,7 +29,7 @@ export class Album extends Component {
       :
       <div>
         <Vert height='3'></Vert> 
-        <h1>({this.state.photoData.year}) {this.state.photoData.name}</h1>
+        <h1>{this.state.photoData.name}</h1>
         <Link to='/photos'>&#60;- Return</Link>
         <Vert height='2'></Vert>
         <PhotoGrid photos={this.state.photoData.photos} />
