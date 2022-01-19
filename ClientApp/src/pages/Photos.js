@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Vert } from '../components/Vert';
 import { Link } from 'react-router-dom';
+import { Loading } from '../components/Loading';
 
 export class Photos extends Component {
   static displayName = Photos.name;
@@ -44,7 +45,7 @@ export class Photos extends Component {
   render () {
 
     let holidays = this.state.loading
-    ? <p><em>Loading...</em></p>
+    ? <Loading/>
     : this.renderHolidays(this.state.locationsData);
 
     return (
