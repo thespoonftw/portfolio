@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Vert } from '../components/Vert';
 import { Link } from 'react-router-dom';
 import { PhotoGrid } from '../components/PhotoGrid';
+import { Loading } from '../components/Loading';
 
 export class PhotoYear extends Component {
   static displayName = PhotoYear.name;
@@ -25,7 +26,7 @@ export class PhotoYear extends Component {
   render () {
     return (
       this.state.loading 
-      ? <p><em>Loading...</em></p>
+      ? <Loading />
       :
       <div>
         <Vert height='3'></Vert> 

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Vert } from '../components/Vert';
 import { Link } from 'react-router-dom';
-import { PhotoGrid, renderPhotoGrid } from '../components/PhotoGrid';
+import { PhotoGrid } from '../components/PhotoGrid';
+import { Loading } from '../components/Loading';
 
 export class PhotoHoliday extends Component {
   static displayName = PhotoHoliday.name;
@@ -25,7 +26,7 @@ export class PhotoHoliday extends Component {
   render () {
     return (
       this.state.loading 
-      ? <p><em>Loading...</em></p>
+      ? <Loading />
       :
       <div>
         <Vert height='3'></Vert> 
