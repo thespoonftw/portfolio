@@ -14,8 +14,18 @@ export class Career extends Component {
         <Vert height='3'></Vert>
         <h1>Career</h1>
         <Vert height='3'></Vert>
+		
+		<h3>Senior Software Engineer at Cron AI (2022 - Present)</h3>
+		<p>
+			Senior developer for an upcoming web-based LiDAR visualiser at a tech start up.
+			<br></br>
+			<Tag>React</Tag> <Tag>AWS</Tag> <Tag>C#</Tag> <Tag>Javascript</Tag> <Tag>WebAssembly</Tag> <Tag>Startup</Tag> <Tag>Gitlab</Tag>
+        
+		</p>
+		<a href ="https://cronai.ai/" target="_blank" rel="noreferrer">https://cronai.ai/</a>
+		<Vert height='3'></Vert>
 
-        <h3>Software Engineer at Pennant International Plc (2021 - Present)</h3>
+        <h3>Software Engineer at Pennant International Plc (2021 - 2022)</h3>
         <p>
           Lead Unity developer for a range of technical training applications used in the Defense and Transport sectors.
           <br></br>
